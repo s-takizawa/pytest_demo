@@ -11,6 +11,15 @@ It needs 'pytest'.
 <br>
 ```pip install pytest ```
 
+# usage
+for windows, open cmd.<br>
+cd pytest_demo root.<br>
+press 'pytest'.
+```
+cd c:\workspace\python\pytest_demo
+pytest
+```
+
 # Supplementary explanation
 ## ./pytest.ini
 ```python
