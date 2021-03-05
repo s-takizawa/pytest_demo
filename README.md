@@ -2,6 +2,9 @@
 This is a minimal develop and test enviromento using Python 3.8+ and Pytest ( and VS Code).
 <br>
 Please use for study, education, or as template.
+<br>
+日本語での説明は私のブログに記載しています。<br>
+https://waterfalls.hatenablog.com/entry/2021/03/05/171342
 
 # Requirements
 It needs 'pytest'.
