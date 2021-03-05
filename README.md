@@ -9,12 +9,12 @@ Pytestの勉強用や動作確認用に。<br>
 https://waterfalls.hatenablog.com/entry/2021/03/05/171342
 
 # Requirements
-It needs 'pytest'.
+It needs 'pytest' library.
 <br>
 ```pip install pytest ```
 
 # usage
-for windows, open cmd.<br>
+for windows, open command prompt.<br><br>
 cd pytest_demo root.<br>
 press 'pytest'.
 ```
@@ -27,7 +27,8 @@ pytest
 ```python
 addopts = -v --capture=no
 ```
-capture=no => show ``` print('hoge') ``` at console when it executes pytest.
+-v => show detail test results.
+--capture=no => show standard output( ``` print('hoge') ``` ) in console with test results.
 
 ## ./tests/__init.py
 When it executes pytest, must need it.
@@ -39,11 +40,10 @@ When it executes pytest, must need it.
 ```
 It needs when execute direcutory **.py.
 If there is not, we write below import statement every test_**.py.
-```pyton
+```python
 import os
 import sys
 sys.path.append(os.path.abspath(os.path.dirname(os.path.abspath(__file__))[1]))
-print(sys.path)
 from src.calc import Calc
 ```
 insted of
