@@ -1,11 +1,11 @@
 # pytest_demo
-This is a minimal develop and test enviromento using Python 3.8+ and Pytest ( and VS Code).
+This is a minimal develop and test environment using Python 3.8+ and Pytest ( and VS Code).
 <br>
 Please use for study, education, or as template.
 <br><br>
-Python + Pytestのシンプルな動作環境です。<br>
+Python + Pytestのシンプルな動作環境。<br>
 Pytestの勉強用や動作確認用に。<br>
-日本語での説明は私のブログに記載しています。<br>
+日本語での説明は私のブログに記載。<br>
 https://waterfalls.hatenablog.com/entry/2021/03/05/171342
 
 # Requirements
@@ -46,7 +46,7 @@ import sys
 sys.path.append(os.path.abspath(os.path.dirname(os.path.abspath(__file__))[1]))
 from src.calc import Calc
 ```
-insted of
+instead of
 ```python
 from src.calc import Calc
 ```
