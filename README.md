@@ -30,7 +30,7 @@ addopts = -v --capture=no
 -v => show detail test results.
 --capture=no => show standard output( ``` print('hoge') ``` ) in console with test results.
 
-## ./tests/__init.py
+## ./tests/__init__.py
 When it executes pytest, must need it.
 
 ## ./.vscode/launch.json
